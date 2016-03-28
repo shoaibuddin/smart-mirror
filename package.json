@@ -26,12 +26,17 @@
   },
   "homepage": "https://github.com/evancohen/smart-mirror",
   "devDependencies": {
+    "install": "^0.6.1",
     "angular-i18n": "^1.5.0",
     "say": "^0.9.0",
+    "wiredep-cli": "^0.1.0",
     "electron-prebuilt": "^0.37.2",
-    "install": "^0.6.1",
     "npm": "^3.8.2",
-    "wiredep": "^4.0.0",
     "bower": "^1.7.7"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "fitbit-oauth2": "0.0.1",
+    "fs": "0.0.2"
   }
 }
