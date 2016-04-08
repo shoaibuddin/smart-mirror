@@ -6,7 +6,7 @@
   "scripts": {
     "install": "bower install",
     "start": "electron main.js ",
-    "microphone-debug" : "electron scripts/microphone-debug/main.js",
+    "microphone-debug": "electron scripts/microphone-debug/main.js",
     "wiredep": "wiredep -s index.html"
   },
   "repository": {
@@ -26,13 +26,14 @@
   },
   "homepage": "https://github.com/evancohen/smart-mirror",
   "devDependencies": {
-    "install": "^0.6.1",
     "angular-i18n": "^1.5.0",
-    "say": "^0.9.0",
-    "wiredep-cli": "^0.1.0",
+    "bower": "^1.7.7",
     "electron-prebuilt": "^0.37.2",
+    "install": "^0.6.1",
+    "node-pi-motion": "^1.1.3",
     "npm": "^3.8.2",
-    "bower": "^1.7.7"
+    "say": "^0.9.0",
+    "wiredep-cli": "^0.1.0"
   },
   "dependencies": {
     "express": "^4.13.4",
